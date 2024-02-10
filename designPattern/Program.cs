@@ -154,23 +154,22 @@ namespace ProbSolv
             #endregion
 
             #region Chain Of Responsibilty
-            JobApplication jobApplication = new JobApplication();
-            jobApplication.ApplicationName = "Yahya";
-            jobApplication.JobTitle = "Great Job";
-            jobApplication.JobCode = "123";
-            jobApplication.Comments = new System.Text.StringBuilder();
+            //JobApplication jobApplication = new JobApplication();
+            //jobApplication.ApplicationName = "Yahya";
+            //jobApplication.JobTitle = "Great Job";
+            //jobApplication.JobCode = "255";
+            //jobApplication.Comments = new System.Text.StringBuilder();
 
-            HREvalHandler hREvalHandler = new HREvalHandler();
-            TechnicalEvalHandler technicalEvalHandler = new TechnicalEvalHandler();
+            //HREvalHandler hREvalHandler = new HREvalHandler();
+            //TechnicalEvalHandler technicalEvalHandler = new TechnicalEvalHandler();
 
-            technicalEvalHandler.SetNext(hREvalHandler);
-            technicalEvalHandler.HandleRequest(jobApplication);
+            //hREvalHandler.SetNext(technicalEvalHandler);
+            //hREvalHandler.HandleRequest(jobApplication);
 
-            Console.WriteLine(jobApplication.Comments);
+            //Console.WriteLine(jobApplication.Comments);
             #endregion
 
             #endregion
-
 
 
             Console.ReadLine();
